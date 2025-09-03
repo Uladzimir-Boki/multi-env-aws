@@ -1,4 +1,3 @@
-# Модуль для создания Storage Account (S3 bucket)
 module "storage_account" {
   source = "./modules/storage-account"
 

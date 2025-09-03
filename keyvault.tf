@@ -1,6 +1,6 @@
 resource "aws_secretsmanager_secret" "vm_root_password" {
-  name        = "${var.resource_group_name}/vm-ubuntu-password"
-  description = "Ubuntu password for VM"
+  name        = "${var.resource_group_name}/vm-root-password"
+  description = "Root password for VM"
   recovery_window_in_days = 0
 
   tags = {
